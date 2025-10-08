@@ -18,7 +18,7 @@ const comments = [
     {
         name: "Emily",
         comment: "안녕하세요, Emily입니다.",
-        img: profile3,
+        image: profile3,
     },
 ]
 
