@@ -34,7 +34,7 @@ class NotificationList extends React.Component {
         const index = notifications.length;
         notifications.push(reservedNotifications[index]);
         this.setState({
-          notifications: notifications,
+          notifications: [],
         });
       } else {
         clearInterval(timer);
@@ -46,7 +46,12 @@ class NotificationList extends React.Component {
     return (
       <div>
         {this.state.notifications.map((notification) => {
-          return <Notification message={notification.message} />;
+          return (
+            <Notification 
+                key={notification.id}
+                id={notification.id}
+                message={notification.message} />
+          );
         })}
       </div>
     );
