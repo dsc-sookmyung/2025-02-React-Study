@@ -7,15 +7,14 @@ class ConfirmButton extends React.Component {
     this.state = {
       isConfirmed: false,
     };
-
-    this.handleConfirm = this.handleConfirm.bind(this);
   }
 
-  handleConfirm() {
+  // ✅ 화살표 함수로 변경 → 자동으로 this가 클래스 인스턴스를 가리킴
+  handleConfirm = () => {
     this.setState((prevState) => ({
       isConfirmed: !prevState.isConfirmed,
     }));
-  }
+  };
 
   render() {
     return (
@@ -30,3 +29,4 @@ class ConfirmButton extends React.Component {
 }
 
 export default ConfirmButton;
+
