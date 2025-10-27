@@ -17,7 +17,7 @@ import TodoList from './week3/TodoList';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <TodoList.jsx />
+    <TodoList />
   </React.StrictMode>
 );
 
