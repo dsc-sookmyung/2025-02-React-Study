@@ -12,11 +12,12 @@ import reportWebVitals from './reportWebVitals';
 import NotificationList from './chapter_06/NotificationList';
 import Accommodate from './chapter_07/Accomodate';
 import ConfirmButton from './chapter_08/ConfirmButton';
+import TodoList from './week3/TodoList';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ConfirmButton />
+    <TodoList.jsx />
   </React.StrictMode>
 );
 
