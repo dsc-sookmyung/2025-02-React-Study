@@ -16,11 +16,12 @@ import TodoList from './week3/TodoList';
 import LandingPage from './chapter_09/LandingPage';
 import AttendanceBook from './chapter_10/AttendanceBook';
 import SignUp from './chapter_11/SignUp';
+import HW4 from './week4/HW4';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <SignUp />
+    <HW4 />
   </React.StrictMode>
 );
 
