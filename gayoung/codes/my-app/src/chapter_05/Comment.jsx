@@ -33,18 +33,23 @@ const styles = {
 };
 
 function Comment(props) {
-  return (
-    <div style={styles.wrapper}>
-      <div style={styles.imageContainer}>
-        <img src={props.profile} style={styles.image} />
-      </div>
+    return(
+      <div style={styles.wrapper}>
+        <div style={styles.imageContainer}>
+          <img
+            src={props.profile}
+            style={styles.image}
+          />
+        </div>
 
-      <div style={styles.contentContainer}>
-        <span style={styles.nameText}>{props.name}</span>
-        <span style={styles.commentText}>{props.comment}</span>
+        <div style={styles.contentContainer}>
+          <span style={styles.nameText}>{props.name}</span>
+          <span style={styles.commentText}>{props.comment}</span>
+        </div>
       </div>
-    </div>
-  );
+    );
 }
 
 export default Comment;
+
+
