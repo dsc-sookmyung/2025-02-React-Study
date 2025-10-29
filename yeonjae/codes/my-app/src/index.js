@@ -9,12 +9,17 @@ import Library from './chapter03/Library';
 import Clock from './chapter04/Clock';
 import CommentList from './chapter05/CommentList';
 
+/* week 4 */
+import LandingPage from './chapter09/LandingPage';
+import AttendanceBook from './chapter10/AttendanceBook';
+import SignUp from './chapter11/SignUp';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 // setInterval(() => {
 root.render(
   <React.StrictMode>
-    <CommentList />
+    <SignUp />
   </React.StrictMode>
 );
 // }, 1000);
