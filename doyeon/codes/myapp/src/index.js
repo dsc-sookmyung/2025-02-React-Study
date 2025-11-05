@@ -7,7 +7,15 @@ import Accommodate from './chapter_07/Accommodate';
 import ConfirmButton from './chapter_08/ConfirmButton';
 import TodoList from './Assignments/week3/TodoList';
 import reportWebVitals from './reportWebVitals';
+import LandingPage from './chapter_09/LandingPage';
+import AttendanceBook from './chapter_10/AttendanceBook';
+import Signup from './chapter_11/Signup';
+import Calculator from './chapter_12/Calculator'
+import ProfileCard from './chapter_13/ProfileCard';
+import SignupForm from './Assignments/week4/SignupForm';
 
+
+import DarkOrLight from './Assignments/week5/DarkOrLight';
 
 const container = document.getElementById('root');
 const root = createRoot(container);
@@ -15,7 +23,7 @@ const root = createRoot(container);
 
 root.render(
   <React.StrictMode>
-    <TodoList />
+    <DarkOrLight />
   </React.StrictMode>
 );
 
