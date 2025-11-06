@@ -20,6 +20,7 @@ export default function MainContent() {
       <button onClick={toggleTheme}>테마 변경</button>
       <ProfileCard
         title={"JEONGMIN"}
+        img={require("./song.png")}
         text={"안녕하세요 오정민입니다."}
       />
       <PostCard
