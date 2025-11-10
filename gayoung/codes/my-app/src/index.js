@@ -19,11 +19,12 @@ import SignUp from './chapter_11/SignUp';
 import HW4 from './week4/HW4';
 import Calculator from './chapter_12/Calculater';
 import ProfileCard from './chapter_13/ProfileCard';
+import DarkOrLight from './chapter_14/DarkOrLight';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ProfileCard />
+    <DarkOrLight />
   </React.StrictMode>
 );
 
