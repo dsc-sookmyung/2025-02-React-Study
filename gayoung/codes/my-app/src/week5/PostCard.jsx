@@ -1,10 +1,22 @@
+import React, { useContext } from "react";
+import ThemeContext from "./ThemeContext";
 import Card from "./Card";
 
-function PostCard({ title, children }) {
-  return (
-    <Card title={title}>
-      <p style={{ margin: 0, lineHeight: 1.6 }}>{children}</p>
-    </Card>
-  );
+function PostCard({ title, text }) {
+    const { theme } = useContext(ThemeContext);
+
+    return (
+        <Card text={text}>
+            <h2
+                style={{
+                    color: `${theme === "light" ? "black" : "white"}`,
+                }}
+            >
+                {title}
+            </h2>
+        </Card>
+    )
+
 }
+
 export default PostCard;
