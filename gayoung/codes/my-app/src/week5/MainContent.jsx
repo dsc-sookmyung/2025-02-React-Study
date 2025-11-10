@@ -2,7 +2,7 @@ import { useContext } from "react";
 import ThemeContext from "./ThemeContext";
 import ProfileCard from "./ProfileCard";
 import PostCard from "./PostCard";
-import user2 from "../img/user2.PNG";
+import user2 from "../img/user2.png";
 
 function MainContent(props) {
     const { theme, toggleTheme } = useContext(ThemeContext);
