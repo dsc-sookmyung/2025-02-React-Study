@@ -19,7 +19,7 @@ import SignUp from './chapter_11/SignUp';
 import HW4 from './week4/HW4';
 import Calculator from './chapter_12/Calculater';
 import ProfileCard from './chapter_13/ProfileCard';
-import DarkOrLight from './week5/DarkorLight';
+
 
 import DarkorLight from './week5/DarkorLight';
 
