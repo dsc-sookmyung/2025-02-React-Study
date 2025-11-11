@@ -18,11 +18,12 @@ import Calculator from "./chapter_12/Calculator";
 import ProfileCard from "./chapter_13/ProfileCard";
 import DarkOrLight from "./chapter_14/DarkOrLight";
 import DarkorLight from './assignment/week5/DarkOrLight';
+import Blocks from "./chapter_15/Blocks";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <DarkorLight />
+    <Blocks />
   </React.StrictMode>
 );
 
