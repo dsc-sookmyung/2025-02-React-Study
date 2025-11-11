@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import useCounter from "./useCounter";
-import { isLabelWithInternallyDisabledControl } from "@testing-library/user-event/dist/utils";
 
 const MAX_CAPACITY = 10;
 
