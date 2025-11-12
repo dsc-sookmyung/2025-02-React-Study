@@ -15,6 +15,7 @@ function MainContent(props) {
                 padding: "1.5rem",
                 backgroundColor: theme === "light" ? "white" : "black",
                 color: theme === "light" ? "black" : "white",
+                boxSizing: "border-box",
             }}
         >   
             <button onClick={toggleTheme}>테마 변경</button>
